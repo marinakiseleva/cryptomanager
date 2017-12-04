@@ -1,0 +1,16 @@
+Inclue coin_history.json file with the structure:
+
+[
+ {
+   "coin": "ZEN",
+   "btc_per_coin": 0.00219477,
+   "usd_per_btc": "6901.17",
+   "num_coins": 5
+ }
+]
+
+For each coin. Where:
+coin : the defined symbol for the coin; must be the official denomination used on exchange sites as that is how the API is pinged
+btc_per_coin: How much the coin cost in BTC at time of purchase
+usd_per_btc: How much USD 1 bitcoin was worth when this purchase was made (used to compute gains in USD)
+num_coins: The number of coins purchased
