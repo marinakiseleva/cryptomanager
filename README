@@ -1,3 +1,6 @@
+###############################################
+#################### USAGE ####################
+###############################################
 Inclue coin_history.json file with the structure:
 
 [
@@ -14,3 +17,14 @@ coin : the defined symbol for the coin; must be the official denomination used o
 btc_per_coin: How much the coin cost in BTC at time of purchase
 usd_per_btc: How much USD 1 bitcoin was worth when this purchase was made (used to compute gains in USD)
 num_coins: The number of coins purchased
+
+
+To run the program, simply run:
+python get_crypto_profile.py 
+
+
+###############################################
+################# LIMITATIONS #################
+###############################################
+
+Program handles any coin handled by the cryptocompare.com API, and MIOTA. 
